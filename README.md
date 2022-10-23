@@ -1,6 +1,6 @@
 # Computer-Architecture-Assembler-HW1
 <br>Homework for Computer Architecture class
-<br>Сделал Пересторонин Максим Дмитриевич БПИ 217
+<br>Сделал Пересторонин Максим Дмитриевич БПИ 217 Вариант 33
 <br> ВНИМАНИЕ! Файлы стоит смотреть по порядку. Т.е. комментарии в файле, необходимиые для оценки 4, МОГУТ не отображаться в файле на оценку 6. Смотрите все последовательно!
 ## На 4 балла:
 * [Приведено решение задачи на C.](https://github.com/mperestoronin/Computer-Architecture-Assembler/tree/main/CFiles)
