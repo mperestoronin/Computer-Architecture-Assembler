@@ -1,35 +1,46 @@
 # Список изменений
 Все файлы были откомпилированны с флагами:
-gcc -masm=intel \
-    -fno-asynchronous-unwind-tables \
-    -fno-jump-tables \
-    -fno-stock-protector \
-    -fno-exception \
-    ./<тут имя файла>.c \
-    -S -o ./<тут имя файла>.s 
+<br>gcc -masm=intel \
+<br>    -fno-asynchronous-unwind-tables \
+<br>    -fno-jump-tables \
+<br>    -fno-stock-protector \
+<br>    -fno-exception \
+<br>    ./<тут имя файла>.c \
+<br>    -S -o ./<тут имя файла>.s 
 ### main
-Удалены ненужные cdqe
-Убрано лишнее присваивание:
-  #mov	rdx, rsp
-	#mov	rbx, rdx
- Заменил просто на
-	mov rbx, rsp
-	Убрал ненужный сгенерированный gcc код:
-	.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
-	.section	.note.GNU-stack,"",@progbits
-	.section	.note.gnu.property,"a"
-	.align 8
-	.long	 1f - 0f
-	.long	 4f - 1f
-	.long	 5
-0:
-	.string	 "GNU"
-1:
-	.align 8
-	.long	 0xc0000002
-	.long	 3f - 2f
-2:
-	.long	 0x3
-3:
-	.align 8
-4:
+<br>Удалены ненужные cdqe
+<br>Убрано лишнее присваивание:
+<br>  #mov	rdx, rsp
+<br>	#mov	rbx, rdx
+<br> Заменил просто на
+<br>	mov rbx, rsp
+<br>	Убрал ненужный сгенерированный gcc код:
+<br>	.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
+<br>	.section	.note.GNU-stack,"",@progbits
+<br>	.section	.note.gnu.property,"a"
+<br>	.align 8
+<br>	.long	 1f - 0f
+<br>	.long	 4f - 1f
+<br>	.long	 5
+<br>0:
+<br>	.string	 "GNU"
+<br>1:
+<br>	.align 8
+<br>	.long	 0xc0000002
+<br>	.long	 3f - 2f
+<br>2:
+<br>	.long	 0x3
+<br>3:
+<br>	.align 8
+<br>4:
+### print_array
+<br>Удалены ненужные cdqe
+<br>Убрано ненужное присваивание
+<br>mov	eax, DWORD PTR [rax] убрано ненужное присваивание
+<br>mov	esi, eax
+<br>Исправлено на
+<br>mov esi, DWORD PTR [rax]
+### make_array
+<br>Удалены ненужные cdqe
+### scan_array
+<br>Удалены ненужные cdqe
