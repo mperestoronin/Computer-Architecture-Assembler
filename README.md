@@ -25,4 +25,4 @@
 * [Добавление комментариев в разработанную программу, поясняющих эквивалентное использование регистров вместо переменных исходной программы на C.](https://github.com/mperestoronin/Computer-Architecture-Assembler/tree/main/Assembler_edited/for_6_points)
 * [Представление результатов тестовых прогонов для разработанной программы. Оценка корректности ее выполнения на основе сравнения тестовых прогонов результатами тестирования предшествующих программ.](https://github.com/mperestoronin/Computer-Architecture-Assembler/blob/main/Tests.md#%D0%BD%D0%B0-6-%D0%B1%D0%B0%D0%BB%D0%BB%D0%BE%D0%B2)
 * [Заключение по тестам](https://github.com/mperestoronin/Computer-Architecture-Assembler/blob/main/Tests.md#%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-1)
-По всем вопросам писшите на почту mdperestoronin@edu.hse.ru или в телеграмм @Maxim_Perestoronin
+<br>По всем вопросам писшите на почту mdperestoronin@edu.hse.ru или в телеграмм @Maxim_Perestoronin
