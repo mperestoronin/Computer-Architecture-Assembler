@@ -1,6 +1,6 @@
 # Computer-Architecture-Assembler-HW1
-Homework for Computer Architecture class
-Сделал Пересторонин Максим Дмитриевич БПИ 217
+<br>Homework for Computer Architecture class
+<br>Сделал Пересторонин Максим Дмитриевич БПИ 217
 ## На 4 балла:
 <br>Приведено решение задачи на C.
 <br>
