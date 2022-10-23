@@ -12,6 +12,6 @@
 <br>[Представлено полное тестовое покрытие, дающее одинаковый результат
 на обоих программах. Приведены результаты тестовых прогонов для обоих программ, демонстрирующие эквивалентность функционирования.](https://github.com/mperestoronin/Computer-Architecture-Assembler/blob/main/Tests.md)
 <br>
-<br>Сформировать отчет, описывающий результаты тестовых прогонов и используемых опций компиляции и/или описания проведенных модификаций. результаты тут - [список изменений тут](https://github.com/mperestoronin/Computer-Architecture-Assembler/blob/main/Assembler_edited/Edit_log.md)
+<br>Сформировать отчет, описывающий результаты тестовых прогонов и используемых опций компиляции и/или описания проведенных модификаций. [Заключение по тестам тут](#conclusion) - [список изменений тут](https://github.com/mperestoronin/Computer-Architecture-Assembler/blob/main/Assembler_edited/Edit_log.md)
 
 
