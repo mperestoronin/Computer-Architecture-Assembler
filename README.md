@@ -12,3 +12,5 @@
 ## На 5 баллов:
 * [Я использовал локальные переменные и передавал данные в функции через параметры](https://github.com/mperestoronin/Computer-Architecture-Assembler/tree/main/CFiles)
 * [В ассемблерную программу при вызове функции добавить комментарии, описывающие передачу фактических параметров и перенос возвращаемого результата.](https://github.com/mperestoronin/Computer-Architecture-Assembler/blob/main/Assembler_edited/for_5_points/main_edited_comments.s)
+* Между параметрами языка Си и регистрами assembly была установлена следующая связь:
+** rdi - первый аргумент в функцию
