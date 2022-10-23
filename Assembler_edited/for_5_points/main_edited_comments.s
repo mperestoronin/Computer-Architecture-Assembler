@@ -36,7 +36,7 @@ main:
 	lea	rdi, .LC1[rip]
 	mov	eax, 0 # кладем 0 в eax перед вызовом функции
 	call	__isoc99_scanf@PLT
-	mov	eax, DWORD PTR -92[rbp] #читаем size
+	mov	eax, DWORD PTR -92[rbp] #читаем size (результат scanf)
 	cmp	eax, 1
 	jg	.L13
 	lea	rdi, .LC2[rip]
