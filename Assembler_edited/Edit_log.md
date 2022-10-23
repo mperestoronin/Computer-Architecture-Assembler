@@ -36,7 +36,7 @@
 ### print_array
 <br>Удалены ненужные cdqe
 <br>Убрано ненужное присваивание
-<br>mov	eax, DWORD PTR [rax] убрано ненужное присваивание
+<br>mov	eax, DWORD PTR [rax] 
 <br>mov	esi, eax
 <br>Исправлено на
 <br>mov esi, DWORD PTR [rax]
