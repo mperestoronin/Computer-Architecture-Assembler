@@ -10,8 +10,8 @@
 ### main
 <br>Удалены ненужные cdqe
 <br>Убрано лишнее присваивание:
-<br>  #mov	rdx, rsp
-<br>	#mov	rbx, rdx
+<br>  mov	rdx, rsp
+<br>	mov	rbx, rdx
 <br> Заменил просто на
 <br>	mov rbx, rsp
 <br>	Убрал ненужный сгенерированный gcc код:
