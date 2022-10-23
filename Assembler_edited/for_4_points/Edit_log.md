@@ -1,12 +1,12 @@
 # Список изменений
 Все файлы были откомпилированны с флагами:
-`<br>gcc -masm=intel \
-<br>    -fno-asynchronous-unwind-tables \
-<br>   -fno-jump-tables \
-<br>    -fno-stock-protector \
-<br>   -fno-exception \
-<br>    ./<тут имя файла>.c \
-<br>   -S -o ./<тут имя файла>.s `
+gcc -masm=intel \
+    -fno-asynchronous-unwind-tables \
+   -fno-jump-tables \
+    -fno-stock-protector \
+  -fno-exception \
+   ./<тут имя файла>.c \
+   -S -o ./<тут имя файла>.s 
 ### main
 <br>Удалены ненужные cdqe
 <br>Убрано лишнее присваивание:
